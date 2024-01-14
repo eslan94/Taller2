@@ -32,10 +32,15 @@
     padding: 20px;
 }
 .navbar{
-    display: flex;
+    display: block;
     padding: 15px;
     margin: 15px;
+    justify-content: center;
 }
+.navbar-nav{
+    display: block;
+}
+
 .home{
     justify-content: center;
     width: 20px;
@@ -49,7 +54,7 @@
 .container-flex{
     display: flex;
     padding: 10px;
-    margin: 10px;
+    margin-top: 145px;
 }
 .barra-lateral{
     background-color: lightslategray;
@@ -86,7 +91,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 15px;
-
 }
 .caja1{
     background-color: bisque;
