@@ -31,6 +31,7 @@
 .login-car{
     padding: 20px;
 }
+
 .navbar{
     display: block;
     padding: 15px;
@@ -54,7 +55,12 @@
 .container-flex{
     display: flex;
     padding: 10px;
-    margin-top: 145px;
+    margin-top: 10px;
+}
+.container-video{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
 }
 .barra-lateral{
     background-color: lightslategray;
